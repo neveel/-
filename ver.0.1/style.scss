@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none
+    }
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    }
+
+.top {
+    background: #222222;
+    
+
+    &_menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 75px;
+
+    }
+
+      &_menu_left {
+        display: flex;
+        align-items: flex-end;
+
+      }
+
+      &_menu_logo {
+          margin-right: 41px;
+
+      }
+
+      &_menu_rigt_img {
+        margin-left: 33px;
+
+      }
+
+     
+}
+
+
+.top_info {
+    background: #F1E4E6;
+
+    &_img {
+        max-width: 50%;
+    }
+
+    &_box {
+        display: flex;
+        align-items: center;
+    }
+
+    &_pink {
+        background: #F16D7F;
+        width: 12px;
+        height: 92px;
+        margin: 0 16px 0 64px;
+    }
+
+    &_box_content {
+        display: flex;
+    }
+
+    &_header {
+        font-weight: 900;
+        font-size: 48px;
+    }
+
+    &_text {
+        font-weight: 700;
+        font-size: 32px;
+    }
+
+    &_text_pink {
+        font-size: 32px;
+        line-height: 16px;
+        color: #F26376;
+    }
+}
+
+.offer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 35px;
+    
+    &_clothes {
+        display: flex;
+    }
+
+    &_item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        flex-grow: 1;
+        margin: 30px;
+    }
+ 
+    &_img{
+    width: 100%;
+    }
+
+    &_text{
+        position: absolute;
+        text-align: center;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
+    &_text_pink{
+        display: block;
+        font-size: 24px;
+        line-height: 28px;
+        color: #F26376;
+    }
+}   
+
+.advantage {
+    background-color: #222224;
+
+    &_box {
+        display: flex;
+        align-items: center;
+        height: 341px;
+    }
+
+    &_car {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 360px
+    }
+
+    &_header {
+        font-size: 19.96px;
+        line-height: 24px;
+        color: #FBFBFB;
+        margin-top: 29px;
+    }
+
+    &_text {
+        font-size: 13.972px;
+        line-height: 17px;
+        text-align: center;
+        color: #FBFBFB;
+        margin: 16px 30px;
+    }
+}
+
+.footer {
+    
+    &_fon {
+        display: flex;
+        align-items: center;
+        background-image: url(img/footer.jpg); 
+        background-repeat: no-repeat; 
+        background-position: center;
+        height: 448px;
+    }
+
+    &_quote {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        height: 225px;
+    }
+
+    &_fon_text {
+        margin-top: 30px;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        color: #222224;
+    }
+
+    &_box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &_header {
+        font-size: 24px;
+        color: #222224;
+    }
+    
+    &_text {
+        font-size: 18px;
+        color: #222224;
+    }
+
+    &_form {
+        margin-top: 32px;
+        display: flex;
+    }
+
+    &_input{
+        width: 259px;
+        height: 49px;
+        background-color: #E1E1E1;
+        border: 0;
+        border-radius: 23px 0 0 23px;
+    }
+
+    &_cliсk {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 49px;
+        background-color: #F16D7F;
+        color: #FFFFFF;
+        text-decoration: none;
+        border: 1px solid transparent;
+        border-radius: 0 23px 23px 0;
+    }
+}
+.footer_contacts {
+  background: #222224;
+
+  &_box {
+    display: flex;
+    justify-content: space-between;
+    height: 79px;
+    align-items: center;
+}
+
+&_text {
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
+&_ul {
+    display: flex;
+    list-style: none;
+}
+
+&_li {
+margin-right: 7px;
+width: 32px;
+height: 32px;
+background: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+&_button {
+    font-size: 100%;
+}
+
+&_li:hover{
+    background: #F16D7F;
+}
+
+}
